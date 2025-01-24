@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\GitHub\\SpeechBubbles\\speechbubbles\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6644102E-F007-456E-9ADF-C004F8855F10}|SpeechBubbles.csproj|d:\\github\\speechbubbles\\speechbubbles\\bubbleobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6644102E-F007-456E-9ADF-C004F8855F10}|SpeechBubbles.csproj|solutionrelative:bubbleobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BubbleObject.cs",
+              "DocumentMoniker": "D:\\GitHub\\SpeechBubbles\\speechbubbles\\BubbleObject.cs",
+              "RelativeDocumentMoniker": "BubbleObject.cs",
+              "ToolTip": "D:\\GitHub\\SpeechBubbles\\speechbubbles\\BubbleObject.cs",
+              "RelativeToolTip": "BubbleObject.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAYwCIAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-24T20:23:53.682Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+[gd_scene load_steps=3 format=3 uid="uid://bren53pmis3q6"]
+
+[ext_resource type="PackedScene" uid="uid://p5vka7a783ju" path="res://BubbleObject.tscn" id="1_lynn4"]
+[ext_resource type="PackedScene" uid="uid://bs8rl3h27af3u" path="res://DropArea.tscn" id="2_e3j15"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="Object" parent="." instance=ExtResource("1_lynn4")]
+position = Vector2(572, 559)
+
+[node name="Node2D" parent="." instance=ExtResource("2_e3j15")]
+position = Vector2(192, 257)
+
+[node name="Node2D2" parent="." instance=ExtResource("2_e3j15")]
+position = Vector2(568, 119)
+
+[node name="Node2D3" parent="." instance=ExtResource("2_e3j15")]
+position = Vector2(954, 226)
