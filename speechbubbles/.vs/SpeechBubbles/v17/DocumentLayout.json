@@ -3,8 +3,20 @@
   "WorkspaceRootPath": "D:\\GitHub\\SpeechBubbles\\speechbubbles\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6644102E-F007-456E-9ADF-C004F8855F10}|SpeechBubbles.csproj|d:\\github\\speechbubbles\\speechbubbles\\bubbleobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6644102E-F007-456E-9ADF-C004F8855F10}|SpeechBubbles.csproj|solutionrelative:bubbleobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6644102E-F007-456E-9ADF-C004F8855F10}|SpeechBubbles.csproj|d:\\github\\speechbubbles\\speechbubbles\\scripts\\bubbleobjectslingshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6644102E-F007-456E-9ADF-C004F8855F10}|SpeechBubbles.csproj|solutionrelative:scripts\\bubbleobjectslingshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6644102E-F007-456E-9ADF-C004F8855F10}|SpeechBubbles.csproj|d:\\github\\speechbubbles\\speechbubbles\\scripts\\bubbleobjectfleeing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6644102E-F007-456E-9ADF-C004F8855F10}|SpeechBubbles.csproj|solutionrelative:scripts\\bubbleobjectfleeing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6644102E-F007-456E-9ADF-C004F8855F10}|SpeechBubbles.csproj|d:\\github\\speechbubbles\\speechbubbles\\scripts\\bubbleobjectfalling.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6644102E-F007-456E-9ADF-C004F8855F10}|SpeechBubbles.csproj|solutionrelative:scripts\\bubbleobjectfalling.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6644102E-F007-456E-9ADF-C004F8855F10}|SpeechBubbles.csproj|d:\\github\\speechbubbles\\speechbubbles\\scripts\\bubbleobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6644102E-F007-456E-9ADF-C004F8855F10}|SpeechBubbles.csproj|solutionrelative:scripts\\bubbleobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -19,14 +31,53 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "BubbleObject.cs",
-              "DocumentMoniker": "D:\\GitHub\\SpeechBubbles\\speechbubbles\\BubbleObject.cs",
-              "RelativeDocumentMoniker": "BubbleObject.cs",
-              "ToolTip": "D:\\GitHub\\SpeechBubbles\\speechbubbles\\BubbleObject.cs",
-              "RelativeToolTip": "BubbleObject.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAAYwCIAAABAAAAAAAAAAA==",
+              "Title": "BubbleObjectSlingshot.cs",
+              "DocumentMoniker": "D:\\GitHub\\SpeechBubbles\\speechbubbles\\Scripts\\BubbleObjectSlingshot.cs",
+              "RelativeDocumentMoniker": "Scripts\\BubbleObjectSlingshot.cs",
+              "ToolTip": "D:\\GitHub\\SpeechBubbles\\speechbubbles\\Scripts\\BubbleObjectSlingshot.cs",
+              "RelativeToolTip": "Scripts\\BubbleObjectSlingshot.cs",
+              "ViewState": "AgIAADQAAAAAAAAAAADwvzsAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-24T20:23:53.682Z",
+              "WhenOpened": "2025-01-25T23:27:02.952Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "BubbleObjectFalling.cs",
+              "DocumentMoniker": "D:\\GitHub\\SpeechBubbles\\speechbubbles\\Scripts\\BubbleObjectFalling.cs",
+              "RelativeDocumentMoniker": "Scripts\\BubbleObjectFalling.cs",
+              "ToolTip": "D:\\GitHub\\SpeechBubbles\\speechbubbles\\Scripts\\BubbleObjectFalling.cs",
+              "RelativeToolTip": "Scripts\\BubbleObjectFalling.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwFMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-25T15:25:25.791Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BubbleObjectFleeing.cs",
+              "DocumentMoniker": "D:\\GitHub\\SpeechBubbles\\speechbubbles\\Scripts\\BubbleObjectFleeing.cs",
+              "RelativeDocumentMoniker": "Scripts\\BubbleObjectFleeing.cs",
+              "ToolTip": "D:\\GitHub\\SpeechBubbles\\speechbubbles\\Scripts\\BubbleObjectFleeing.cs",
+              "RelativeToolTip": "Scripts\\BubbleObjectFleeing.cs",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAgwDsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-25T18:17:24.725Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "BubbleObject.cs",
+              "DocumentMoniker": "D:\\GitHub\\SpeechBubbles\\speechbubbles\\Scripts\\BubbleObject.cs",
+              "RelativeDocumentMoniker": "Scripts\\BubbleObject.cs",
+              "ToolTip": "D:\\GitHub\\SpeechBubbles\\speechbubbles\\Scripts\\BubbleObject.cs",
+              "RelativeToolTip": "Scripts\\BubbleObject.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-25T15:08:42.05Z",
               "EditorCaption": ""
             }
           ]
