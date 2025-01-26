@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://t6gfmbtyoh0b"
-path="res://.godot/imported/MannErnst.png-affc38c257f498a10743565e2a2ddb7a.ctex"
+uid="uid://uowpf225jjko"
+path="res://.godot/imported/FrauWuetend.png-8cbb81875e4c278d7f93c452685b5308.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Bilder/SpeechBubble Bilder/MannErnst.png"
-dest_files=["res://.godot/imported/MannErnst.png-affc38c257f498a10743565e2a2ddb7a.ctex"]
+source_file="res://Bilder/SpeechBubbleBilder/FrauWuetend.png"
+dest_files=["res://.godot/imported/FrauWuetend.png-8cbb81875e4c278d7f93c452685b5308.ctex"]
 
 [params]
 

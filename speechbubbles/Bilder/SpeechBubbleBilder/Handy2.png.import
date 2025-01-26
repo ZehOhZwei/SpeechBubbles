@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://c2lhw5quk84cr"
-path="res://.godot/imported/Liebe2.png-ef6ebc3b99cc3f1b6b2d22db132337bd.ctex"
+uid="uid://cjfkdwnbw15oo"
+path="res://.godot/imported/Handy2.png-cc2c63923e53126852c33b41c52ce27d.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Bilder/SpeechBubble Bilder/Liebe2.png"
-dest_files=["res://.godot/imported/Liebe2.png-ef6ebc3b99cc3f1b6b2d22db132337bd.ctex"]
+source_file="res://Bilder/SpeechBubbleBilder/Handy2.png"
+dest_files=["res://.godot/imported/Handy2.png-cc2c63923e53126852c33b41c52ce27d.ctex"]
 
 [params]
 

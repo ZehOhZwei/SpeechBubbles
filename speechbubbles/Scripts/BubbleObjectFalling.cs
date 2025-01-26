@@ -16,6 +16,9 @@ public partial class BubbleObjectFalling : RigidBody2D
     protected Area2D area;
     private Timer timer;
 
+    [Export]
+    public int value = 1;
+
     public override void _Ready()
     {
         timer = GetNode<Timer>("Timer");

@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dltm1wexryqla"
-path="res://.godot/imported/Handy.png-1aea1b6d99f95edb48904670638ff9d4.ctex"
+uid="uid://np6i7cs5a55u"
+path="res://.godot/imported/MannNervoes.png-508c2ef6aa9930f4aa49f0685f528bf6.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Bilder/SpeechBubble Bilder/Handy.png"
-dest_files=["res://.godot/imported/Handy.png-1aea1b6d99f95edb48904670638ff9d4.ctex"]
+source_file="res://Bilder/SpeechBubbleBilder/MannNervoes.png"
+dest_files=["res://.godot/imported/MannNervoes.png-508c2ef6aa9930f4aa49f0685f528bf6.ctex"]
 
 [params]
 

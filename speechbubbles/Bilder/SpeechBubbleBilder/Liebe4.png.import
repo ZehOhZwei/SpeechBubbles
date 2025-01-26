@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bcp7v4ccr8xyb"
-path="res://.godot/imported/Lampe.png-395188aa972e1091db1e5fc17441d2b8.ctex"
+uid="uid://t8qbtcdatxy1"
+path="res://.godot/imported/Liebe4.png-901fb6b4e2f2744af97e569a58837ce0.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Bilder/SpeechBubble Bilder/Lampe.png"
-dest_files=["res://.godot/imported/Lampe.png-395188aa972e1091db1e5fc17441d2b8.ctex"]
+source_file="res://Bilder/SpeechBubbleBilder/Liebe4.png"
+dest_files=["res://.godot/imported/Liebe4.png-901fb6b4e2f2744af97e569a58837ce0.ctex"]
 
 [params]
 
