@@ -3,7 +3,8 @@ using System;
 
 public partial class DropArea : Area2D
 {
-	public bool isFull = false;
+	public int value = 0;
+	public Node2D placedBubble;
 
 	// Called when the node enters the scene tree for the first time.
 	public override void _Ready()
@@ -13,9 +14,14 @@ public partial class DropArea : Area2D
 	// Called every frame. 'delta' is the elapsed time since the previous frame.
 	public override void _Process(double delta)
 	{
-		if (isFull)
+		if (placedBubble != null)
 		{
-			GD.Print("Is Full");
+			GD.Print("Placed");
 		}
+	}
+
+	public void SetPlacedBubble(Node2D node)
+	{
+		placedBubble = node;
 	}
 }

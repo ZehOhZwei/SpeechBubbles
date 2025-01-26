@@ -1,6 +1,6 @@
 [gd_scene load_steps=8 format=3 uid="uid://bren53pmis3q6"]
 
-[ext_resource type="Script" path="res://Scripts/SeceneScript.cs" id="1_3tucu"]
+[ext_resource type="Script" path="res://Scripts/SceneScript.cs" id="1_fjaxt"]
 [ext_resource type="AudioStream" uid="uid://2kce3ppeqe3s" path="res://Music/alone-shadows-253136.mp3" id="2_12xkr"]
 [ext_resource type="PackedScene" uid="uid://bk6yvtnspepjk" path="res://Scenes/Floor.tscn" id="3_qrrc6"]
 [ext_resource type="PackedScene" uid="uid://dce4pv8th8wvj" path="res://Scenes/BubbleObjectPetrified.tscn" id="4_npxu5"]
@@ -9,7 +9,7 @@
 [ext_resource type="Texture2D" uid="uid://uyrtra6n3e26" path="res://Bilder/KleineSprechblase.svg" id="7_wkqxh"]
 
 [node name="Node2D" type="Node2D"]
-script = ExtResource("1_3tucu")
+script = ExtResource("1_fjaxt")
 
 [node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
 editor_description = "MUAhahahahhaha

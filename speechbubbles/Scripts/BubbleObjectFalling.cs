@@ -50,8 +50,11 @@ public partial class BubbleObjectFalling : RigidBody2D
                 Freeze = true;
                 dropped = true;
                 Rotation = 0;
+                bodyRef.Set("value", value);
+                var dropArea = (DropArea)bodyRef;
+                dropArea.SetPlacedBubble(this);
             }
-            if(!isInsideDropable && !eventMouseButton.Pressed)
+            if (!isInsideDropable && !eventMouseButton.Pressed)
             {
                 Freeze = false;
                 dropped = false;

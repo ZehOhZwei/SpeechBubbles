@@ -41,7 +41,9 @@ public partial class BubbleObject : Node2D
             }
 			if (isInsideDropable)
 			{
-				bodyRef.Set("isFull", true);
+                bodyRef.Set("value", value);
+                var dropArea = (DropArea)bodyRef;
+                dropArea.SetPlacedBubble(this);
                 sfxClick.Play(); // Soundeffekt beim Ancklicken? der Speechbubble
                 Position = bodyRef.Position;
 			}
