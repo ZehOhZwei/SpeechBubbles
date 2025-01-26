@@ -1,0 +1,20 @@
+[gd_scene load_steps=4 format=3 uid="uid://bren53pmis3q6"]
+
+[ext_resource type="Script" path="res://SeceneScript.cs" id="1_3tucu"]
+[ext_resource type="AudioStream" uid="uid://2kce3ppeqe3s" path="res://Music/alone-shadows-253136.mp3" id="2_12xkr"]
+[ext_resource type="PackedScene" uid="uid://bk6yvtnspepjk" path="res://Scenes/Floor.tscn" id="3_qrrc6"]
+
+[node name="Node2D" type="Node2D"]
+script = ExtResource("1_3tucu")
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
+editor_description = "MUAhahahahhaha
+"
+stream = ExtResource("2_12xkr")
+autoplay = true
+parameters/looping = true
+
+[node name="RigidBody2D" parent="." instance=ExtResource("3_qrrc6")]
+position = Vector2(-1, 638)
+
+[node name="Timer" type="Timer" parent="."]

@@ -1,7 +1,6 @@
-[gd_scene load_steps=4 format=3 uid="uid://eburk315xsci"]
+[gd_scene load_steps=3 format=3 uid="uid://eburk315xsci"]
 
 [ext_resource type="Script" path="res://Scripts/BubbleObjectSlingshot.cs" id="1_b0o4e"]
-[ext_resource type="Texture2D" uid="uid://uyrtra6n3e26" path="res://Bilder/KleineSprechblase.svg" id="2_615xt"]
 
 [sub_resource type="CapsuleShape2D" id="CapsuleShape2D_kdi2r"]
 radius = 28.0
@@ -9,21 +8,6 @@ height = 130.0
 
 [node name="RigidBody2D" type="RigidBody2D"]
 script = ExtResource("1_b0o4e")
-
-[node name="Sprite2D" type="Sprite2D" parent="."]
-position = Vector2(-1.59999, 19.05)
-scale = Vector2(0.05, 0.05)
-texture = ExtResource("2_615xt")
-
-[node name="RichTextLabel" type="RichTextLabel" parent="."]
-offset_left = -62.0
-offset_top = -12.0
-offset_right = 63.0
-offset_bottom = 37.0
-mouse_filter = 2
-bbcode_enabled = true
-text = "[font_size=25][color=black] Slingshot"
-drag_and_drop_selection_enabled = false
 
 [node name="Area2D" type="Area2D" parent="."]
 

@@ -1,7 +1,6 @@
-[gd_scene load_steps=4 format=3 uid="uid://sgauu51khj3"]
+[gd_scene load_steps=3 format=3 uid="uid://sgauu51khj3"]
 
 [ext_resource type="Script" path="res://Scripts/BubbleObjectFalling.cs" id="1_ye32g"]
-[ext_resource type="Texture2D" uid="uid://uyrtra6n3e26" path="res://Bilder/KleineSprechblase.svg" id="2_tegw3"]
 
 [sub_resource type="CapsuleShape2D" id="CapsuleShape2D_eakgl"]
 radius = 54.0
@@ -12,26 +11,11 @@ z_index = 1
 gravity_scale = 0.0
 script = ExtResource("1_ye32g")
 
-[node name="Sprite2D2" type="Sprite2D" parent="."]
-position = Vector2(1.50017, 15)
-scale = Vector2(0.05, 0.05)
-texture = ExtResource("2_tegw3")
-
 [node name="CollisionShape2D" type="CollisionPolygon2D" parent="."]
 position = Vector2(2.50017, 24)
 rotation = 1.5708
 scale = Vector2(0.5, 0.5)
-polygon = PackedVector2Array(-100, 5.0007, -86.0003, -86.9994, -58.0005, -128.999, -22, -137, -5.00001, -121, -3.8147e-06, -108, 21, -137, 10, -77, 17, -23, 16, 32, 5, 90, -21.9995, 125, -45.9995, 135.001, -69.9996, 111.001, -89.9998, 67.0007)
-
-[node name="RichTextLabel" type="RichTextLabel" parent="."]
-offset_left = -42.0
-offset_top = -16.0
-offset_right = 52.0
-offset_bottom = 22.0
-mouse_filter = 2
-bbcode_enabled = true
-text = "[font_size=25][color=black] Falling"
-drag_and_drop_selection_enabled = false
+polygon = PackedVector2Array(-100, 5.0007, -86.0003, -86.9994, -58.0005, -128.999, -22, -137, -5.00001, -121, -3.8147e-06, -108, 5.99966, -94.9997, 10, -77, 17, -23, 16, 32, 5, 90, -21.9995, 125, -45.9995, 135.001, -69.9996, 111.001, -89.9998, 67.0007)
 
 [node name="Area2D" type="Area2D" parent="."]
 position = Vector2(-0.499832, 26)
