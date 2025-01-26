@@ -15,8 +15,11 @@ public partial class BubbleObject : Node2D
 	protected bool isInsideDropable = false;
 	protected Node2D bodyRef;
 
+    [Export]
+    public int value = 1;
 
-	public override void _Ready()
+
+    public override void _Ready()
 	{
 		area = GetNode<Area2D>("Area2D");
 		sfxClick = GetNode<AudioStreamPlayer>("sfxClick");
@@ -24,8 +27,6 @@ public partial class BubbleObject : Node2D
 		area.MouseEntered += () => OnMouseEntered();
 		area.AreaEntered += (area) => OnAreaEntered(area);
 		area.AreaExited += (area) => OnAreaExited();
-		
-	
 	}
 
 	public override void _Input(InputEvent @event)
@@ -40,6 +41,9 @@ public partial class BubbleObject : Node2D
             }
 			if (isInsideDropable)
 			{
+                bodyRef.Set("value", value);
+                var dropArea = (DropArea)bodyRef;
+                dropArea.SetPlacedBubble(this);
                 sfxClick.Play(); // Soundeffekt beim Ancklicken? der Speechbubble
                 Position = bodyRef.Position;
 			}

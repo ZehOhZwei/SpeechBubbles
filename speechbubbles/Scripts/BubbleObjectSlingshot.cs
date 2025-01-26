@@ -11,7 +11,12 @@ public partial class BubbleObjectSlingshot : RigidBody2D
     private bool draggable = false;
     private bool dropped;
 
+    private Area2D bodyRef;
+
     private Area2D area;
+
+    [Export]
+    public int value = 1;
 
     // Called when the node enters the scene tree for the first time.
     public override void _Ready()
@@ -83,6 +88,9 @@ public partial class BubbleObjectSlingshot : RigidBody2D
             {
                 Rotation = 0;
                 Freeze = true;
+                bodyRef.Set("value", value);
+                var dropArea = (DropArea)bodyRef;
+                dropArea.SetPlacedBubble(this);
             }
         }
         base._PhysicsProcess(delta);
@@ -101,6 +109,7 @@ public partial class BubbleObjectSlingshot : RigidBody2D
 
     private void OnAreaEntered(Area2D area)
     {
+        bodyRef = area;
         dropped = true;
         Position = area.Position;
     }

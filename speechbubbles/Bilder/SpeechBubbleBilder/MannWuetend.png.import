@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bb7nxr5re6o6"
-path="res://.godot/imported/Tisch.png-cbfd8c67b43faa0e668eb109790adac3.ctex"
+uid="uid://3et2e1aaqifr"
+path="res://.godot/imported/MannWuetend.png-cdf4d3efa5a39f31af6ecd0758e06ce9.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Bilder/SpeechBubble Bilder/Tisch.png"
-dest_files=["res://.godot/imported/Tisch.png-cbfd8c67b43faa0e668eb109790adac3.ctex"]
+source_file="res://Bilder/SpeechBubbleBilder/MannWuetend.png"
+dest_files=["res://.godot/imported/MannWuetend.png-cdf4d3efa5a39f31af6ecd0758e06ce9.ctex"]
 
 [params]
 

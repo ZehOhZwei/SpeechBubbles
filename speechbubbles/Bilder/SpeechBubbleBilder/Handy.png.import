@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://54hht5ejptf5"
-path="res://.godot/imported/FrauNeutral.png-4be3b922612ac8f1fc7b56ab49d9441c.ctex"
+uid="uid://dltm1wexryqla"
+path="res://.godot/imported/Handy.png-970ef11ef20fbf561c3f2f373f57437f.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Bilder/SpeechBubble Bilder/FrauNeutral.png"
-dest_files=["res://.godot/imported/FrauNeutral.png-4be3b922612ac8f1fc7b56ab49d9441c.ctex"]
+source_file="res://Bilder/SpeechBubbleBilder/Handy.png"
+dest_files=["res://.godot/imported/Handy.png-970ef11ef20fbf561c3f2f373f57437f.ctex"]
 
 [params]
 

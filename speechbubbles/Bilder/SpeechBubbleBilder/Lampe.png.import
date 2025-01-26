@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://uowpf225jjko"
-path="res://.godot/imported/FrauWuetend.png-5f452c9f0678f1c826396e7352074542.ctex"
+uid="uid://bcp7v4ccr8xyb"
+path="res://.godot/imported/Lampe.png-748763e5fe59e91ab5fa50144f98f286.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Bilder/SpeechBubble Bilder/FrauWuetend.png"
-dest_files=["res://.godot/imported/FrauWuetend.png-5f452c9f0678f1c826396e7352074542.ctex"]
+source_file="res://Bilder/SpeechBubbleBilder/Lampe.png"
+dest_files=["res://.godot/imported/Lampe.png-748763e5fe59e91ab5fa50144f98f286.ctex"]
 
 [params]
 

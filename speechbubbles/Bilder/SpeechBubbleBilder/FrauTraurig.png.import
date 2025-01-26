@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://t8qbtcdatxy1"
-path="res://.godot/imported/Liebe4.png-9b5e8cb520419e14380cedd3c705c655.ctex"
+uid="uid://dti6firqrloin"
+path="res://.godot/imported/FrauTraurig.png-a2abd74ad84066e2a3ee5ca4210dfd36.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Bilder/SpeechBubble Bilder/Liebe4.png"
-dest_files=["res://.godot/imported/Liebe4.png-9b5e8cb520419e14380cedd3c705c655.ctex"]
+source_file="res://Bilder/SpeechBubbleBilder/FrauTraurig.png"
+dest_files=["res://.godot/imported/FrauTraurig.png-a2abd74ad84066e2a3ee5ca4210dfd36.ctex"]
 
 [params]
 

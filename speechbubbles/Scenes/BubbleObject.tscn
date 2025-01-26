@@ -6,7 +6,7 @@
 radius = 26.0
 height = 128.0
 
-[node name="Node2D" type="Node2D"]
+[node name="BubbleObject" type="Node2D"]
 z_index = 1
 script = ExtResource("1_sigyj")
 
