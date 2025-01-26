@@ -45,7 +45,10 @@ public partial class BubbleObject : Node2D
                 var dropArea = (DropArea)bodyRef;
                 dropArea.SetPlacedBubble(this);
                 sfxClick.Play(); // Soundeffekt beim Ancklicken? der Speechbubble
-                Position = bodyRef.Position;
+				if(bodyRef is not null)
+				{
+					Position = bodyRef.Position;
+				}
 			}
 		}
 	}

@@ -20,7 +20,7 @@
 
 [node name="Node2D" type="Node2D"]
 script = ExtResource("1_vvag0")
-nextSceneNumber = 6
+nextSceneNumber = 1
 
 [node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
 editor_description = "MUAhahahahhaha
