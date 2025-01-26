@@ -6,6 +6,9 @@ public partial class DropArea : Area2D
 	public int value = 0;
 	public Node2D placedBubble;
 
+	[Signal]
+	public delegate void BubbleDroppedEventHandler();
+
 	// Called when the node enters the scene tree for the first time.
 	public override void _Ready()
 	{
@@ -23,5 +26,6 @@ public partial class DropArea : Area2D
 	public void SetPlacedBubble(Node2D node)
 	{
 		placedBubble = node;
+		EmitSignal(SignalName.BubbleDropped);
 	}
 }

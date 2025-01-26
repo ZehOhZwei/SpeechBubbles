@@ -1,13 +1,13 @@
 [gd_scene load_steps=18 format=3 uid="uid://bbnaqmum6yn6o"]
 
-[ext_resource type="Script" path="res://SeceneScript.cs" id="1_vvag0"]
+[ext_resource type="Script" path="res://Scripts/SceneScript.cs" id="1_vvag0"]
 [ext_resource type="AudioStream" uid="uid://2kce3ppeqe3s" path="res://Music/alone-shadows-253136.mp3" id="2_hlfbf"]
 [ext_resource type="Texture2D" uid="uid://tdgxn37u3bd4" path="res://Scenes/Bilder/bc.jpg" id="3_1cf8t"]
 [ext_resource type="Texture2D" uid="uid://w0md4qqkc0t3" path="res://Scenes/Bilder/IMG_3938.png" id="4_dfsjm"]
-[ext_resource type="Texture2D" uid="uid://dti6firqrloin" path="res://Bilder/SpeechBubble Bilder/FrauTraurig.png" id="5_3qwxg"]
+[ext_resource type="Texture2D" uid="uid://dti6firqrloin" path="res://Bilder/SpeechBubbleBilder/FrauTraurig.png" id="5_3qwxg"]
 [ext_resource type="Texture2D" uid="uid://2u71eygvvxfa" path="res://Scenes/Bilder/IMG_3936.png" id="6_y8mrc"]
 [ext_resource type="Texture2D" uid="uid://bxajkiyl4tocg" path="res://Scenes/Bilder/hand with  phone.png" id="7_ex4gn"]
-[ext_resource type="Texture2D" uid="uid://3et2e1aaqifr" path="res://Bilder/SpeechBubble Bilder/MannWuetend.png" id="8_58rvq"]
+[ext_resource type="Texture2D" uid="uid://3et2e1aaqifr" path="res://Bilder/SpeechBubbleBilder/MannWuetend.png" id="8_58rvq"]
 [ext_resource type="Texture2D" uid="uid://bh71237216t6g" path="res://Scenes/Bilder/5.png" id="9_qkeji"]
 [ext_resource type="Texture2D" uid="uid://dcyb42bnxivx5" path="res://Scenes/Bilder/bubble.svg" id="10_n1hvm"]
 [ext_resource type="PackedScene" uid="uid://bk6yvtnspepjk" path="res://Scenes/Floor.tscn" id="11_a4t0e"]
@@ -20,6 +20,7 @@
 
 [node name="Node2D" type="Node2D"]
 script = ExtResource("1_vvag0")
+nextSceneNumber = 6
 
 [node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
 editor_description = "MUAhahahahhaha

@@ -1,6 +1,6 @@
 [gd_scene load_steps=17 format=3 uid="uid://csx0rp86g381f"]
 
-[ext_resource type="Script" path="res://SeceneScript.cs" id="1_i0ker"]
+[ext_resource type="Script" path="res://Scripts/SceneScript.cs" id="1_i0ker"]
 [ext_resource type="AudioStream" uid="uid://2kce3ppeqe3s" path="res://Music/alone-shadows-253136.mp3" id="2_2k8r2"]
 [ext_resource type="Texture2D" uid="uid://tdgxn37u3bd4" path="res://Scenes/Bilder/bc.jpg" id="3_dpdbx"]
 [ext_resource type="Texture2D" uid="uid://w0md4qqkc0t3" path="res://Scenes/Bilder/IMG_3938.png" id="4_x06q6"]
@@ -19,6 +19,7 @@
 
 [node name="Node2D" type="Node2D"]
 script = ExtResource("1_i0ker")
+nextSceneNumber = 3
 
 [node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
 editor_description = "MUAhahahahhaha

@@ -11,14 +11,13 @@ config_version=5
 [application]
 
 config/name="SpeechBubbles"
-run/main_scene="res://BaseScene.tscn"
+run/main_scene="res://Scene1.tscn"
 config/features=PackedStringArray("4.3", "C#", "Forward Plus")
 config/icon="res://Bilder/icon.svg"
 
 [display]
 
-window/size/viewport_width=1100
-window/size/viewport_height=650
+window/size/mode=3
 
 [dotnet]
 

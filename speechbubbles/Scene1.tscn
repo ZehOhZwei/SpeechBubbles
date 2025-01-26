@@ -1,6 +1,6 @@
 [gd_scene load_steps=19 format=3 uid="uid://c6yrtppvvejn0"]
 
-[ext_resource type="Script" path="res://SeceneScript.cs" id="1_ln6ta"]
+[ext_resource type="Script" path="res://Scripts/SceneScript.cs" id="1_ln6ta"]
 [ext_resource type="AudioStream" uid="uid://2kce3ppeqe3s" path="res://Music/alone-shadows-253136.mp3" id="2_scpuj"]
 [ext_resource type="PackedScene" uid="uid://bk6yvtnspepjk" path="res://Scenes/Floor.tscn" id="3_qlibt"]
 [ext_resource type="Texture2D" uid="uid://tdgxn37u3bd4" path="res://Scenes/Bilder/bc.jpg" id="4_a21hg"]
