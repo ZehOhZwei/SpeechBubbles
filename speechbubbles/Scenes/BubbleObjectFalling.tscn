@@ -8,7 +8,7 @@ height = 252.0
 
 [node name="RigidBody2D" type="RigidBody2D"]
 z_index = 1
-gravity_scale = 0.0
+input_pickable = true
 script = ExtResource("1_ye32g")
 
 [node name="CollisionShape2D" type="CollisionPolygon2D" parent="."]

@@ -1,0 +1,101 @@
+[gd_scene load_steps=17 format=3 uid="uid://csx0rp86g381f"]
+
+[ext_resource type="Script" path="res://SeceneScript.cs" id="1_i0ker"]
+[ext_resource type="AudioStream" uid="uid://2kce3ppeqe3s" path="res://Music/alone-shadows-253136.mp3" id="2_2k8r2"]
+[ext_resource type="Texture2D" uid="uid://tdgxn37u3bd4" path="res://Scenes/Bilder/bc.jpg" id="3_dpdbx"]
+[ext_resource type="Texture2D" uid="uid://w0md4qqkc0t3" path="res://Scenes/Bilder/IMG_3938.png" id="4_x06q6"]
+[ext_resource type="Texture2D" uid="uid://dvid56ki8lknu" path="res://Scenes/Bilder/girlnormal.png" id="5_8o8fc"]
+[ext_resource type="Texture2D" uid="uid://2u71eygvvxfa" path="res://Scenes/Bilder/IMG_3936.png" id="6_7gawn"]
+[ext_resource type="Texture2D" uid="uid://bxajkiyl4tocg" path="res://Scenes/Bilder/hand with  phone.png" id="7_p1xup"]
+[ext_resource type="Texture2D" uid="uid://behnpm0l2cvqy" path="res://Scenes/Bilder/IMG_3945.png" id="8_dn6be"]
+[ext_resource type="Texture2D" uid="uid://v58rk625n6m8" path="res://Scenes/Bilder/T2.png" id="9_ycc48"]
+[ext_resource type="Texture2D" uid="uid://7huai6umq2tu" path="res://Scenes/Bilder/T2T.png" id="10_iba2w"]
+[ext_resource type="PackedScene" uid="uid://bk6yvtnspepjk" path="res://Scenes/Floor.tscn" id="11_a0t6j"]
+[ext_resource type="PackedScene" uid="uid://b212nn7p5x0po" path="res://Scenes/DropArea.tscn" id="12_wuvbn"]
+[ext_resource type="PackedScene" uid="uid://sgauu51khj3" path="res://Scenes/BubbleObjectFalling.tscn" id="13_y320k"]
+[ext_resource type="Texture2D" uid="uid://c8lhrb7vi2lab" path="res://Scenes/Bilder/T2a.png" id="14_o1vu2"]
+[ext_resource type="Texture2D" uid="uid://cstpaigimnf3t" path="res://Scenes/Bilder/T2b.png" id="16_l0wef"]
+[ext_resource type="PackedScene" uid="uid://p5vka7a783ju" path="res://Scenes/BubbleObject.tscn" id="17_t5d4n"]
+
+[node name="Node2D" type="Node2D"]
+script = ExtResource("1_i0ker")
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
+editor_description = "MUAhahahahhaha
+"
+stream = ExtResource("2_2k8r2")
+autoplay = true
+parameters/looping = true
+
+[node name="Timer" type="Timer" parent="."]
+
+[node name="Bc" type="Sprite2D" parent="."]
+position = Vector2(553.5, 361.5)
+scale = Vector2(0.556061, 0.566406)
+texture = ExtResource("3_dpdbx")
+
+[node name="Img3938" type="Sprite2D" parent="."]
+position = Vector2(566.875, 430.5)
+scale = Vector2(0.447348, 0.453906)
+texture = ExtResource("4_x06q6")
+
+[node name="Girlnormal" type="Sprite2D" parent="."]
+position = Vector2(786, 440)
+rotation = 0.0471239
+scale = Vector2(0.2, 0.2)
+texture = ExtResource("5_8o8fc")
+
+[node name="Img3936" type="Sprite2D" parent="."]
+position = Vector2(563, 483)
+scale = Vector2(0.673232, 0.749219)
+texture = ExtResource("6_7gawn")
+
+[node name="HandWithPhone" type="Sprite2D" parent="."]
+position = Vector2(779, 438)
+rotation = 0.0471239
+scale = Vector2(0.2, 0.2)
+texture = ExtResource("7_p1xup")
+
+[node name="Img3945" type="Sprite2D" parent="."]
+position = Vector2(343, 431)
+scale = Vector2(0.2, 0.2)
+texture = ExtResource("8_dn6be")
+
+[node name="T" type="Sprite2D" parent="."]
+position = Vector2(555, 142)
+scale = Vector2(0.15, 0.15)
+texture = ExtResource("9_ycc48")
+
+[node name="Bubble" type="Sprite2D" parent="."]
+position = Vector2(627.667, 249.646)
+scale = Vector2(0.225813, 0.197662)
+texture = ExtResource("10_iba2w")
+
+[node name="RigidBody2D" parent="." instance=ExtResource("11_a0t6j")]
+position = Vector2(6, 659)
+
+[node name="Node2D" parent="." instance=ExtResource("12_wuvbn")]
+visible = false
+position = Vector2(666, 207)
+
+[node name="A" parent="." instance=ExtResource("13_y320k")]
+position = Vector2(420, 602)
+
+[node name="Sprite2D" type="Sprite2D" parent="A"]
+
+[node name="1b" type="Sprite2D" parent="A"]
+position = Vector2(7.99999, 8.00002)
+scale = Vector2(0.0618372, 0.079406)
+texture = ExtResource("14_o1vu2")
+
+[node name="D" parent="." instance=ExtResource("17_t5d4n")]
+position = Vector2(859, 596)
+
+[node name="Sprite2D" type="Sprite2D" parent="D"]
+position = Vector2(1.00002, 13)
+scale = Vector2(0.0638113, 0.0709442)
+texture = ExtResource("16_l0wef")
+
+[node name="Node2D2" parent="." instance=ExtResource("12_wuvbn")]
+visible = false
+position = Vector2(605, 238)

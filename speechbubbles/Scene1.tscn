@@ -1,0 +1,107 @@
+[gd_scene load_steps=19 format=3 uid="uid://c6yrtppvvejn0"]
+
+[ext_resource type="Script" path="res://SeceneScript.cs" id="1_ln6ta"]
+[ext_resource type="AudioStream" uid="uid://2kce3ppeqe3s" path="res://Music/alone-shadows-253136.mp3" id="2_scpuj"]
+[ext_resource type="PackedScene" uid="uid://bk6yvtnspepjk" path="res://Scenes/Floor.tscn" id="3_qlibt"]
+[ext_resource type="Texture2D" uid="uid://tdgxn37u3bd4" path="res://Scenes/Bilder/bc.jpg" id="4_a21hg"]
+[ext_resource type="Texture2D" uid="uid://w0md4qqkc0t3" path="res://Scenes/Bilder/IMG_3938.png" id="5_j3li0"]
+[ext_resource type="Texture2D" uid="uid://dvid56ki8lknu" path="res://Scenes/Bilder/girlnormal.png" id="6_ekfdc"]
+[ext_resource type="Texture2D" uid="uid://2u71eygvvxfa" path="res://Scenes/Bilder/IMG_3936.png" id="7_sbrgt"]
+[ext_resource type="Texture2D" uid="uid://bxajkiyl4tocg" path="res://Scenes/Bilder/hand with  phone.png" id="8_he3r3"]
+[ext_resource type="Texture2D" uid="uid://behnpm0l2cvqy" path="res://Scenes/Bilder/IMG_3945.png" id="9_bfmjo"]
+[ext_resource type="Texture2D" uid="uid://vhbofp4ni5l4" path="res://Scenes/Bilder/T.png" id="10_xsgt6"]
+[ext_resource type="Texture2D" uid="uid://dcyb42bnxivx5" path="res://Scenes/Bilder/bubble.svg" id="11_q0n1o"]
+[ext_resource type="PackedScene" uid="uid://sgauu51khj3" path="res://Scenes/BubbleObjectFalling.tscn" id="12_1c35y"]
+[ext_resource type="Texture2D" uid="uid://blmt0x4itulgu" path="res://Scenes/Bilder/T3.png" id="13_o44kr"]
+[ext_resource type="PackedScene" uid="uid://cu2rddybun8sb" path="res://Scenes/BubbleObjectFleeing.tscn" id="14_55qk7"]
+[ext_resource type="Texture2D" uid="uid://b5e87rsrnw43m" path="res://Scenes/Bilder/TC.png" id="15_oyi54"]
+[ext_resource type="PackedScene" uid="uid://p5vka7a783ju" path="res://Scenes/BubbleObject.tscn" id="16_knan5"]
+[ext_resource type="Texture2D" uid="uid://b4vsw2l3f7o0e" path="res://Scenes/Bilder/TB.png" id="17_kob3b"]
+[ext_resource type="PackedScene" uid="uid://b212nn7p5x0po" path="res://Scenes/DropArea.tscn" id="18_d1u80"]
+
+[node name="Node2D" type="Node2D"]
+script = ExtResource("1_ln6ta")
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
+editor_description = "MUAhahahahhaha
+"
+stream = ExtResource("2_scpuj")
+autoplay = true
+parameters/looping = true
+
+[node name="Timer" type="Timer" parent="."]
+
+[node name="Bc" type="Sprite2D" parent="."]
+position = Vector2(553.5, 361.5)
+scale = Vector2(0.556061, 0.566406)
+texture = ExtResource("4_a21hg")
+
+[node name="Img3938" type="Sprite2D" parent="."]
+position = Vector2(566.875, 430.5)
+scale = Vector2(0.447348, 0.453906)
+texture = ExtResource("5_j3li0")
+
+[node name="Girlnormal" type="Sprite2D" parent="."]
+position = Vector2(786, 440)
+rotation = 0.0471239
+scale = Vector2(0.2, 0.2)
+texture = ExtResource("6_ekfdc")
+
+[node name="Img3936" type="Sprite2D" parent="."]
+position = Vector2(563, 483)
+scale = Vector2(0.673232, 0.749219)
+texture = ExtResource("7_sbrgt")
+
+[node name="HandWithPhone" type="Sprite2D" parent="."]
+position = Vector2(779, 438)
+rotation = 0.0471239
+scale = Vector2(0.2, 0.2)
+texture = ExtResource("8_he3r3")
+
+[node name="Img3945" type="Sprite2D" parent="."]
+position = Vector2(343, 431)
+scale = Vector2(0.2, 0.2)
+texture = ExtResource("9_bfmjo")
+
+[node name="T" type="Sprite2D" parent="."]
+position = Vector2(555, 142)
+scale = Vector2(0.15, 0.15)
+texture = ExtResource("10_xsgt6")
+
+[node name="Bubble" type="Sprite2D" parent="."]
+position = Vector2(684, 233)
+scale = Vector2(0.0887685, 0.0870818)
+texture = ExtResource("11_q0n1o")
+
+[node name="RigidBody2D" parent="." instance=ExtResource("3_qlibt")]
+position = Vector2(6, 659)
+
+[node name="Node2D" parent="." instance=ExtResource("18_d1u80")]
+visible = false
+position = Vector2(666, 207)
+
+[node name="A" parent="." instance=ExtResource("12_1c35y")]
+position = Vector2(186, 612)
+
+[node name="Sprite2D" type="Sprite2D" parent="A"]
+
+[node name="1b" type="Sprite2D" parent="A"]
+position = Vector2(2, 12)
+scale = Vector2(0.05, 0.05)
+texture = ExtResource("13_o44kr")
+
+[node name="C" parent="." instance=ExtResource("14_55qk7")]
+position = Vector2(561, 617)
+
+[node name="Sprite2D" type="Sprite2D" parent="C"]
+position = Vector2(-2, 5)
+scale = Vector2(0.05, 0.05)
+texture = ExtResource("15_oyi54")
+
+[node name="D" parent="." instance=ExtResource("16_knan5")]
+position = Vector2(854, 609)
+
+[node name="Sprite2D" type="Sprite2D" parent="D"]
+position = Vector2(0, 10)
+scale = Vector2(0.05, 0.05)
+texture = ExtResource("17_kob3b")
